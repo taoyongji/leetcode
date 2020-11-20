@@ -5,6 +5,7 @@
 #include "linked_sort.h"
 
 ListNode *Solution::insertionSortList(ListNode *head) {
+    if (head == nullptr) return head;
     auto *new_head = new ListNode(head->val);
     ListNode *old_head = head->next;
     while (old_head != nullptr) {
