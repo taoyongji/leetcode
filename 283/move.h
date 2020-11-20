@@ -5,9 +5,12 @@
 #ifndef LEETCODE_MOVE_H
 #define LEETCODE_MOVE_H
 
-
-class move {
-
+#include <iostream>
+#include <vector>
+using namespace std;
+class Solution {
+ public:
+  void moveZeroes(vector<int>& nums);
 };
 
 

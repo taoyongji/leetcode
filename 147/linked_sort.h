@@ -4,10 +4,17 @@
 
 #ifndef LEETCODE_LINKED_SORT_H
 #define LEETCODE_LINKED_SORT_H
+#include <iostream>
+using namespace std;
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(nullptr) {}
+};
 
-
-class linked_sort {
-
+class Solution {
+ public:
+  ListNode* insertionSortList(ListNode* head);
 };
 
 
